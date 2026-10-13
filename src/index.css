@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Muller";
+  src: url("/src/assets/fonts/Muller.otf") format("opentype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+*{
+  box-sizing: border-box;
+  outline: none;
+}
+
+.container{
+  font-family: "Muller", serif;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+body{
+  background-color: #1E0C00;
+}
